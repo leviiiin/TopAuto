@@ -1,0 +1,131 @@
+@media screen and (max-width: 2560px) {
+    
+}
+
+@media screen and (max-width: 1920px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo{
+        width: 200px;
+        margin-left: 110px;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 8px;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+
+
+    .test-drive__section{
+        background-image: url(../img/pexels-gradienta-7130481.jpg);
+        background-position: center center;
+        background-size: 100% auto;
+        height: 500px;
+        padding-top: 100px;
+    }
+    .form{
+        background: rgba(255, 255, 255, 0.351);
+        width: 355px;
+        height: 320px;
+        margin-left: 10px;
+    }
+    .form__h1{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .box{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .input{
+        width: 310px;
+    }
+    .form__button{
+        margin-left: 80px;
+    }
+
+
+    .footer__mess{
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .footer__text{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 100px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 20px;
+        width: 310px;
+        margin-top: -10px;
+    }
+    .footer__button{
+        position: relative;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width: 320px) {
+    
+    
+}

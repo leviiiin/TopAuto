@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopAuto</title>
+    <link rel="stylesheet" href="../TopAuto.css/info.css">
+    <link rel="stylesheet" href="../TopAuto_media/info_media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="container">
+        <div>
+            <a href="http://127.0.0.1:5500/TopAuto/index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+        </div>
+    </header>
+
+    <nav class="container nav nav__flex">
+        <input type="checkbox" name="menu" id="btn-menu">
+        <label for="btn-menu">Меню</label>
+        <ol>
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/buy.html">
+                    Покупка
+                </a>
+            </li>
+
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/arend.html">
+                    Oренда
+                </a>
+            </li>
+
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/test-drive.html">
+                    Тест-драйв
+                </a>
+            </li>
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/info.html">
+                        Про нас
+                </a>
+            </li>
+        </ol>
+    </nav>
+
+    <div class="slider">
+        <div class="slider_img">
+          <img src="../img/info_img_1.jpg" style="width:100%">
+        </div>
+        <div class="slider_img">
+          <img src="../img/info_img_2.jpg" style="width:100%">
+        </div>
+        <div class="slider_img">
+          <img src="../img/info_img_3.jpg" style="width:100%">
+        </div>
+        <div class="slider_img">
+            <img src="../img/info_img_4.jpg" style="width:100%">
+        </div>
+        <div class="slider_img">
+            <img src="../img/info_img_5.jpg" style="width:100%">
+        </div>
+        <div class="slider_img">
+            <img src="../img/info_img_6.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="info_logo_bg">
+        <h1 class="info_logo">TopAuto</h1>
+    </div>
+
+    <section class="info">
+        <div class="info_flex">
+            <img class="info_men" src="../img/info_men.webp" alt="img">
+            <div>
+                <p class="info_text">
+                    Наша компанія працює на європейському ринку вже понад 10 років. Понад 3 роки ми працюємо на ринку України.<br><br>
+                    Працюємо без посередників, тому можемо запропонувати найнижчу ціну на авто. Ми цінуємо своїх клієнтів та 
+                    супроводжуємо їх на всіх етапах угоди. Завдяки цьому наші клієнти отримують перевірений автомобіль без 
+                    переплат та сюрпризів. <br><br>
+                    На даний момент у нас понад 1200 постійних клієнтів, яким ми допомогли вибрати та 
+                    придбати понад 5000 авто з ЄС на замовлення. <br><br>
+                    На початку 2019 року наша компанія вийшла на автомобільний ринок України, відкривши кілька офісів у великих містах країни.
+                
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr class="line">
+
+    <section class="fact_container">
+        <div class="info_fact">
+            <h1 class="info_fact_h1">Наші переваги перед конкурентами</h1>
+            <h3 class="info_fact_h3">Договір</h3>
+            <p class="info_fact_p2">Підписуємо договір, усі платежі на банківські рахунки.</p>
+            <h3 class="info_fact_h3">Звіти</h3>
+            <p class="info_fact_p2">Відео та фото супровід від моменту покупки до 
+            моменту передачі автомобіля клієнту.</p>
+            <h3 class="info_fact_h3">Перевірка</h3>
+            <p class="info_fact_p2">Перевірка та огляд машини перед торгами + страхова 
+            історія автомобіля. Партнерські угоди з аукціонами у ЄC дають можливість 
+            нашим спеціалістам особисто виїжджати на аукціон та проводити інспекцію авто перед торгами.</p>
+            <h3 class="info_fact_h3">Доставка</h3>
+            <p class="info_fact_p2">Найдоступніші ціни з доставки авто, працюємо через порти Європи.</p>
+            <h3 class="info_fact_h3">Команда</h3>
+            <p class="info_fact_p2">Наші професіонали займаються підбором, покупкою та доставкою машин. 
+            Ми працюємо без посередників.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="../img/logo__2.png" alt="logo">
+            <div  class="footer__flex">
+                <div>
+                    <p class="footer__text">Адреса: Sõpruse pst 18c, 10615 Tallinn, Эстония</p>
+                    <div>
+                        <img class="footer__mess" src="https://cdn.worldvectorlogo.com/logos/instagram-2016-6.svg" alt="img">
+                        <img class="footer__mess" src="https://cdn.svgporn.com/logos/facebook.svg" alt="img">
+                        <img class="footer__mess" src="https://cdn.svgporn.com/logos/twitter.svg" alt="img">
+                        <img class="footer__mess" src="https://cdn.svgporn.com/logos/youtube-icon.svg" alt="img">
+                    </div>
+                </div>
+                <div>
+                    <p class="footer__text">Залиште номер, і ми з вами зв'яжемося</p>
+                    <input class="number" type="tel" placeholder="Ваш номер телефону"/>
+                    <button class="footer__button">Відправити</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>

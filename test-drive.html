@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopAuto</title>
+    <link rel="stylesheet" href="../TopAuto.css/test-drive.css">
+    <link rel="stylesheet" href="../TopAuto_media/test-drive_media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="container">
+        <div>
+            <a href="http://127.0.0.1:5500/TopAuto/index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+        </div>
+    </header>
+
+    <nav class="container nav nav__flex">
+        <input type="checkbox" name="menu" id="btn-menu">
+        <label for="btn-menu">Меню</label>
+        <ol>
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/buy.html">
+                    Покупка
+                </a>
+            </li>
+
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/arend.html">
+                    Oренда
+                </a>
+            </li>
+
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/test-drive.html">
+                    Тест-драйв
+                </a>
+            </li>
+            <li class="nav__li">
+                <a class="nav__link" href="http://127.0.0.1:5500/TopAuto/info.html">
+                        Про нас
+                </a>
+            </li>
+        </ol>
+    </nav>
+
+    <section class="test-drive__section">
+        <div class="form">
+            <h1 class="form__h1">Замовлення</h1>
+            <p class="form__p">Залиште свої данні i ми з вами зв'яжемося</p>
+            <div class="box">
+                <p class="name__p">ФІО</p>
+                <input type="text" class="input">
+                <p class="tel__p">Номер телефону</p>
+                <input type="tel" class="input">
+                <p class="email__p">Email</p>
+                <input type="email" class="input">
+            </div>     
+            <button class="form__button">Відправити</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="../img/logo__2.png" alt="logo">
+            <div  class="footer__flex">
+                <div>
+                    <p class="footer__text">Адреса: Sõpruse pst 18c, 10615 Tallinn, Эстония</p>
+                    <div>
+                        <img class="footer__mess" src="https://cdn.worldvectorlogo.com/logos/instagram-2016-6.svg" alt="img">
+                        <img class="footer__mess" src="https://cdn.svgporn.com/logos/facebook.svg" alt="img">
+                        <img class="footer__mess" src="https://cdn.svgporn.com/logos/twitter.svg" alt="img">
+                        <img class="footer__mess" src="https://cdn.svgporn.com/logos/youtube-icon.svg" alt="img">
+                    </div>
+                </div>
+                <div>
+                    <p class="footer__text">Залиште номер, і ми з вами зв'яжемося</p>
+                    <input class="number" type="tel" placeholder="Ваш номер телефону"/>
+                    <button class="footer__button">Відправити</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>

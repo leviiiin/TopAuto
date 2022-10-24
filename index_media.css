@@ -1,0 +1,148 @@
+@media screen and (max-width: 2560px) {
+    
+}
+
+@media screen and (max-width: 1920px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo{
+        width: 200px;
+        margin-left: 110px;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 8px;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+
+
+    .text{
+        font-size: 31px;
+        text-align: center;
+    }
+    .car__flex{
+        text-align: center;
+    }
+    .time__flex{
+        display: block;
+        margin-left: 0;
+    }
+    .text__time__h1{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 7px;
+    }
+    .text__time__p{
+        font-size: 15px;
+        margin: 0;
+        margin-right: 30px;
+    }
+    .text__time__p_2{
+        font-size: 15px
+    }
+    .time__flex_text{
+        margin-left: 55px;
+    }
+    .map{
+        width: 200px;
+        border: 1.5px solid #c8102e;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: -45px;
+    }
+
+
+    .line{
+        border: none;
+        background-color: #c8102e;
+        color: #c8102e;
+        height: 2px;
+    }
+
+
+    .footer__mess{
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .footer__text{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 100px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 20px;
+        width: 310px;
+        margin-top: -10px;
+    }
+    .footer__button{
+        position: relative;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width: 320px) {
+    
+    
+}

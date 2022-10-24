@@ -1,0 +1,163 @@
+@media screen and (max-width: 2560px) {
+    
+}
+
+@media screen and (max-width: 1920px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo{
+        width: 200px;
+        margin-left: 110px;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 8px;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+
+
+    .slider{
+        max-width: 100%;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    .info{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .info_flex{
+        display: block;
+    }
+    .info_men{
+        width: 340px;
+    }
+    .info_text{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .info_logo_bg{
+        margin-top: -4px;
+        height: 60px;
+        background: #252525e8;
+    }
+    .info_logo{
+        font-size: 35px;
+        padding-top: 7.5px;
+        margin-left: 130px;
+    }
+    
+    .line{
+        background-color: #c8102e;
+        height: 2px;
+        width: 355px;
+        margin-left: 10px;
+    }
+    
+    .fact_container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .info_fact{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .info_fact_h1{
+        font-size: 30px;
+    }
+    .info_fact_h3{
+        margin-top: 27px;
+    }
+    .info_fact_p2{
+        font-size: 17px;
+    }
+
+
+    .footer__mess{
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .footer__text{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 100px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 20px;
+        width: 310px;
+        margin-top: -10px;
+    }
+    .footer__button{
+        position: relative;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width: 320px) {
+    
+    
+}

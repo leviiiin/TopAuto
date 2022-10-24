@@ -1,0 +1,139 @@
+@media screen and (max-width: 2560px) {
+    
+}
+
+@media screen and (max-width: 1920px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
+
+@media screen and (max-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo{
+        width: 200px;
+        margin-left: 110px;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 8px;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+
+
+    .arend__section{
+        background-image: url(../img/pexels-gradienta-arend.jpg);
+        background-position: center center;
+        background-size: 100% auto;
+        height: 2380px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .car__flex{
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .car__img{
+        width: 280px;
+        padding: 10px;
+    }
+    .car__box{
+        margin: 0;
+        margin-bottom: 20px;
+        height: 380px;
+    }
+    .car__title{
+        font-size: 23px;
+    }
+    .price{
+        font-size: 30px;
+    }
+    .arend__button{
+        font-size: 30px;
+        width: 200px;
+        height: 45px;
+        margin-left: 52px;
+        margin-top: 15px;
+    }
+
+
+    .footer__mess{
+        width: 20px;
+        margin-bottom: 15px;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .footer__text{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 100px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 20px;
+        width: 310px;
+        margin-top: -10px;
+    }
+    .footer__button{
+        position: relative;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width: 320px) {
+    
+    
+}
