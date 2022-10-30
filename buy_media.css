@@ -1,44 +1,330 @@
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 1920px) {
     
+    .logo{
+        width: 350px;
+        margin-left: 45%;
+        margin-bottom: -55px;
+    }
+
+    .nav__link{
+        font-size: 60px;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-photo-7130539.webp);
+        background-position: center;
+        background-size: 100% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .car__box{
+        max-width: 500px;       
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-bottom: 8%;
+        margin-left: 10px;
+    }
+    .car__img{
+        width: 440px;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 130%;
+    }
+    .price{
+        font-size: 200%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 80%;
+        height: 13%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+    .footer__mess{
+        width: 65px;
+        margin-top: 10px;
+    }
+    .footer__text{
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 450px;
+    }
+    .footer__logo{
+        width: 350px;
+        margin: 0;
+        margin-bottom: -60px;
+        margin-left: 50px;
+    }
+    .footer__button{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .number{
+        width: 600px;
+        height: 50px;
+        font-size: 40px;
+        margin-top: 5px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 1920px) {
     
+    .logo{
+        width: 280px;
+        margin-left: 44%;
+    }
+
+    .nav__link{
+        font-size: 40px;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-photo-7130539.webp);
+        background-position: center;
+        background-size: 100% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .buy__flex{
+        margin: 0 auto;
+        display: flex;
+    }
+    .car__box{      
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-bottom: 1%;
+        margin-left: 10px;
+    }
+    .car__img{
+        max-width: 95%;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 130%;
+    }
+    .price{
+        font-size: 200%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 80%;
+        height: 13%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+    .footer__mess{
+        width: 50px;
+        margin-top: 10px;
+    }
+    .footer__text{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 83%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 300px;
+    }
+    .footer__logo{
+        width: 250px;
+        margin: 0;
+        margin-bottom: -40px;
+        margin-left: 20px;
+    }
+    .footer__button{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .number{
+        width: 450px;
+        height: 33px;
+        font-size: 27px;
+        margin-top: 5px;
+        padding-left: 15px;
+    }
 }
+
 
 @media screen and (max-width: 1440px) {
     
+     
+    .logo{
+        width: 240px;
+        margin-left: 42%;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-photo-7130539.webp);
+        background-position: center;
+        background-size: 100% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .buy__flex{
+        margin: 0 auto;
+        display: flex;
+    }
+    .car__box{
+        max-width: 300px;    
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .car__img{
+        width: 93%;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 130%;
+    }
+    .price{
+        font-size: 200%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 80%;
+        height: 13%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+    .footer__mess{
+        width: 45px;
+    }
+    .footer__text{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 170px;
+        margin: 0;
+        margin-bottom: -20px;
+        margin-left: 20px;
+    }
+    .footer__button{
+        font-size: 20px;
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width: 1280px) {
-    
+
+    .logo{
+        width: 20%;
+        margin-left: 42%;
+    }
+
+    .nav__link{
+        font-size: 35px;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-photo-7130539.webp);
+        background-position: center;
+        background-size: 100% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .buy__flex{
+        margin: 0 auto;
+        display: flex;
+    }
+    .car__img{
+        width: 93%;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 140%;
+    }
+    .price{
+        font-size: 200%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 80%;
+        height: 13%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+    .footer__mess{
+        width: 35px;
+    }
+    .footer__text{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 170px;
+        margin: 0;
+        margin-bottom: -20px;
+        margin-left: 20px;
+    }
+    .number{
+        font-size: 20px;
+        width: 70%;
+    }
+    .footer__button{
+        font-size: 17px;
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-    
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 600px) {
-    
-}
-
-@media screen and (max-width: 480px) {
-
     .logo{
-        width: 200px;
-        margin-left: 110px;
+        width: 23%;
+        margin-left: 42%;
     }
-
 
     nav{
         text-align: right;
     }
     nav label{
         display: inline-block;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 87%;
     }
     nav > ol{
         display: none;
@@ -47,8 +333,8 @@
     .nav__li {
         display: block;
         text-align: right;
-        margin-right: 20px;
-        margin-top: 8px;
+        margin-right: 5%;
+        margin-top: 3%;
 
     }
     input[type="checkbox"]:checked ~ label + ol {
@@ -57,10 +343,121 @@
 
 
     .buy{
-        background-image: url(./img/pexels-gradienta-buy.jpg);
+        background-image: url(../img/pexels-photo-7130539.webp);
         background-position: center;
         background-size: 100% auto;
-        height: 2381px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .buy__flex{
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content:space-around;
+    }
+    .car__box{
+        max-width: 50%;    
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-bottom: 2%;
+        margin-left: 10px;
+    }
+    .car__img{
+        width: 93%;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 130%;
+    }
+    .price{
+        font-size: 200%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 80%;
+        height: 13%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    
+    .footer__mess{
+        width: 30px;
+        margin-top: 10px;
+    }
+    .footer__flex{
+        display: flex;
+    }
+    .footer__text{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 230px;
+    }
+    .footer__logo{
+        width: 150px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 20px;
+        width: 300px;
+        margin-top: -10px;
+    }
+    .footer__button{
+        position: relative;
+        font-size: 17px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    
+    .logo{
+        width: 30%;
+        margin-left: 40%;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 85%;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 5%;
+        margin-top: 3%;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-gradienta-buy.jpg);
+        background-position: center;
+        background-size: 100% auto;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -70,29 +467,252 @@
         display: block;
     }
     .car__box{
-        margin: 0;
+        max-width: 90%;    
+        margin: 0 auto;
         margin-bottom: 20px;
-        height: 380px;
+        padding-bottom: 33%;
     }
     .car__img{
-        width: 280px;
+        width: 96%;
         padding: 10px;
     }
     .car__title{
-        font-size: 25px;
+        font-size: 200%;
     }
     .price{
-        font-size: 30px;
+        font-size: 230%;
     }
     .car__button{
-        font-size: 30px;
-        width: 200px;
-        height: 45px;
-        margin-left: 52px;
+        font-size: 220%;
+        width: 62%;
+        height: 12%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+
+
+    .footer__mess{
+        width: 22px;
+        margin-bottom: 15px;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .footer__text{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 120px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 20px;
+        width: 340px;
+        margin-top: -10px;
+    }
+    .footer__button{
+        position: relative;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .logo{
+        width: 35%;
+        margin-left: 35%;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 83%;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 5%;
+        margin-top: 3%;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-gradienta-buy.jpg);
+        background-position: center;
+        background-size: 100% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .buy__flex{
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .car__box{
+        max-width: 90%;    
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-bottom: 20%;
+    }
+    .car__img{
+        width: 94%;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 190%;
+    }
+    .price{
+        font-size: 220%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 62%;
+        height: 12%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+
+    .footer__mess{
+        width: 22px;
+        margin-bottom: 15px;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .footer__text{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .footer__container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 250px;
+    }
+    .footer__logo{
+        width: 120px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 20px;
+        width: 340px;
+        margin-top: -10px;
+    }
+    .footer__button{
+        position: relative;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo{
+        width: 45%;
+        margin-left: 30%;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        margin-left: 80%;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 5%;
+        margin-top: 3%;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+    .nav__link{
+        font-size: 25px;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-gradienta-buy.jpg);
+        background-position: center;
+        background-size: 100% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .buy__flex{
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .car__box{
+        max-width: 90%;    
+        padding-bottom: 7%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .car__img{
+        width: 94%;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 170%;
+    }
+    .price{
+        font-size: 200%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 62%;
+        height: 12%;
         margin-top: 15px;
+        margin-left: 20%;
     }
 
     
+
     .footer__mess{
         width: 20px;
         margin-bottom: 15px;
@@ -129,11 +749,120 @@
         margin-left: 10px;
         margin-top: 10px;
     }
-
    
 }
 
-@media screen and (max-width: 320px) {
-    
-    
+@media screen and (max-width: 380px) {
+
+    .logo{
+        width: 55%;
+        margin-left: 25%;
+    }
+
+
+    nav{
+        text-align: right;
+    }
+    nav label{
+        display: inline-block;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        margin-left: 75%;
+    }
+    nav > ol{
+        display: none;
+        right: 0;
+    }
+    .nav__li {
+        display: block;
+        text-align: right;
+        margin-right: 5%;
+        margin-top: 3%;
+
+    }
+    input[type="checkbox"]:checked ~ label + ol {
+        display: block;
+    }
+    .nav__link{
+        font-size: 25px;
+    }
+
+
+    .buy{
+        background-image: url(../img/pexels-gradienta-buy.jpg);
+        background-position: center;
+        background-size: 100% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .buy__flex{
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .car__box{
+        max-width: 90%;    
+        height: 355px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .car__img{
+        width: 94%;
+        padding: 10px;
+    }
+    .car__title{
+        font-size: 140%;
+    }
+    .price{
+        font-size: 170%;
+    }
+    .car__button{
+        font-size: 220%;
+        width: 62%;
+        height: 12%;
+        margin-top: 15px;
+        margin-left: 20%;
+    }
+
+
+
+    .footer__mess{
+        width: 20px;
+        margin-bottom: 5px;
+    }
+    .footer__flex{
+        display: block;
+    }
+    .footer__text{
+        font-size: 15px;
+        margin: 0;
+    }
+    .footer__container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .footer{
+        background: #252525e8;
+        height: 200px;
+    }
+    .footer__logo{
+        width: 100px;
+        margin: 0;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .number{
+        font-size: 15px;
+        width: 200px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    .footer__button{
+        position: absolute;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+   
 }
